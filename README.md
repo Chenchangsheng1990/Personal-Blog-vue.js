@@ -7,19 +7,19 @@
 
 ##  项目运行（nodejs 6.0+）
 ---------------------------------------
-## 克隆到本地
+`克隆到本地`
 
  *  git clone git@github.com:Chenchangsheng1990/Personal-Blog-vue.js.git
 
-# 安装依赖
+` 安装依赖`
 
 * npm install or cnpm install 
 
-# 开启本地服务器localhost:8080
+`开启本地服务器localhost:8080`
 
 * npm run dev
 
-# 发布环境
+`发布环境`
 
 * npm run build
 
