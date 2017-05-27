@@ -1,25 +1,29 @@
-##项目描述
-这是一个简单个人博客项目
+前言
+======================
+  vue
+##  项目描述
 
-##项目运行（nodejs 6.0+）
+* 这是一个简单个人博客项目
 
-# 克隆到本地
- git clone 
+##  项目运行（nodejs 6.0+）
+---------------------------------------
+## 克隆到本地
+
+ *  git clone git@github.com:Chenchangsheng1990/Personal-Blog-vue.js.git
 
 # 安装依赖
-npm install or cnpm install 
+
+* npm install or cnpm install 
 
 # 开启本地服务器localhost:8088
 npm run dev
 
 # 发布环境
-npm run build
+* npm run build
 
-npm run build --report
-
+* npm run build --report
+##  路由
 ```
-路由
-
 应用包括下面7个路由
 
 /welcome 首页,个人信息简单介绍；
