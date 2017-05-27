@@ -50,6 +50,7 @@
 >>>webpack.base.conf.js
 >>>webpack.dev.conf.js
 >>>webpack.prod.conf.js
+------------------------------
 >config  // vue-cli 自带的配置文件
 >>dev.env.js
 >>index.js
