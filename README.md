@@ -39,7 +39,8 @@
 ```
 ##  项目结构
 
-```.
+```
+-------------------------------------
 ├── build // vue-cli 自带的配置文件
 │   ├── build.js
 │   ├── check-versions.js
@@ -49,10 +50,12 @@
 │   ├── webpack.base.conf.js
 │   ├── webpack.dev.conf.js
 │   └── webpack.prod.conf.js
+-------------------------------------
 ├── config  // vue-cli 自带的配置文件
 │   ├── dev.env.js
 │   ├── index.js
 │   └── prod.env.js
+-------------------------------------
 ├── dist
 │	├──static
 │	│	├──	ccs
@@ -63,9 +66,12 @@
 │	│	└──	public.css
 │	│	
 │	└──index.html
+-------------------------------------
 ├── index.html
+-------------------------------------
 ├── node-proxy  // node 转发API请求，解决跨域问题
 │   └── index.js
+-------------------------------------
 ├── src
 │   ├── assets
 │   │   ├── menus
@@ -91,6 +97,7 @@
 │	│	└──index.js
 │	├──	App.vue
 │   └── main.js // 入口文件
+-------------------------------------
 ├── static
 ├── .babelrc
 ├──	.editorconfig
