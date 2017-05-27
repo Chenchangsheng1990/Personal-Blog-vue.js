@@ -33,8 +33,9 @@ npm run dev
 /story 鬼故事列表页面，调用API
 /picture 
 /me 个人简历页面，链接到giehub个人resume
-
-##项目结构
+```
+##  项目结构
+```
 .
 ├── build // vue-cli 自带的配置文件
 │   ├── build.js
@@ -96,7 +97,7 @@ npm run dev
 ├──	index.html
 ├── package.json
 └── README.md
-
+```
 
 ## 参考文档
 > - [vue官网](http://cn.vuejs.org/)
