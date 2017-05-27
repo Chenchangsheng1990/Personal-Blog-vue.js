@@ -38,10 +38,11 @@
 
 ```
 ##  项目结构
-```
+
 .
 > build // vue-cli 自带的配置文件
 >> build.js
+```
 │   ├── check-versions.js
 │   ├── dev-client.js
 │   ├── dev-server.js
