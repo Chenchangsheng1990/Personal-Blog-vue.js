@@ -15,10 +15,12 @@
 
 * npm install or cnpm install 
 
-# 开启本地服务器localhost:8088
-npm run dev
+# 开启本地服务器localhost:8080
+
+* npm run dev
 
 # 发布环境
+
 * npm run build
 
 * npm run build --report
@@ -26,19 +28,20 @@ npm run dev
 ```
 应用包括下面7个路由
 
-/welcome 首页,个人信息简单介绍；
-/music QQ音乐内地歌曲排行;
-/movie 电影排行页面，调用豆瓣API，并且采用滚动加载；
-/news 新浪新闻，调用新浪新闻API。
-/story 鬼故事列表页面，调用API
-/picture 
-/me 个人简历页面，链接到giehub个人resume
+/welcome   首页----个人信息简单介绍；
+/music     音乐----QQ音乐内地歌曲排行,QQ音乐API;
+/movie     电影----电影排行页面，调用豆瓣API，并且采用滚动加载；
+/news      新闻----新浪新闻，调用新浪新闻API。
+/story     故事----鬼故事列表页面，调用API
+/picture   图片----一些图片，API
+/me        约我----个人简历页面，链接到giehub个人resume
+
 ```
 ##  项目结构
 ```
 .
-├── build // vue-cli 自带的配置文件
-│   ├── build.js
+> build // vue-cli 自带的配置文件
+>> build.js
 │   ├── check-versions.js
 │   ├── dev-client.js
 │   ├── dev-server.js
@@ -101,4 +104,5 @@ npm run dev
 
 ## 参考文档
 > - [vue官网](http://cn.vuejs.org/)
-> - [vue-loader](https://router.vuejs.org/)# Personal-Blog-vue.js
+> - [vue-loader](https://router.vuejs.org/)
+## Personal-Blog-vue.js
