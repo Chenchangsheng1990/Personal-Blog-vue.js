@@ -9,7 +9,7 @@
 ---------------------------------------
 `克隆到本地`
 
- *  git clone git@github.com:Chenchangsheng1990/Personal-Blog-vue.js.git
+ *  https://github.com/Chenchangsheng1990/Personal-Blog-vue.js.git
 
 ` 安装依赖`
 
